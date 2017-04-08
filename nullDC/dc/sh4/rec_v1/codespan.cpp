@@ -1,5 +1,6 @@
 #include "codespan.h"
 #include "dc/mem/sh4_mem.h"
+#include <algorithm>
 
 //start page , olny valid if in ram
 u32 CodeSpan::page_start()
